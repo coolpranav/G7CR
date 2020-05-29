@@ -1,2 +1,2 @@
-# G7CR
-public repository for G7CR
+# Azure
+public repository for Azure
