@@ -1,3 +1,4 @@
+Add-RdsAccount -DeploymentUrl "https://rdbroker.wvd.microsoft.com"
 $TennantName = "#########"
 $AppGroupName = "Desktop Application Group"
 $HostPoolArray = Get-RdsHostPool -TenantName $TennantName |Select-Object HostPoolName
